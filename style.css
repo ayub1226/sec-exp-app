@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffbe6; /* grocery-style light yellow */
+}
+
+header {
+  background-color: #5dbb63; /* fresh green */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.search-bar {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.product-card {
+  background-color: #f1f8e9;
+  border: 2px solid #c5e1a5;
+  border-radius: 12px;
+  width: 220px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h2 {
+  font-size: 20px;
+  color: #2e7d32;
+}
+
+.product-card p {
+  font-size: 18px;
+  color: #388e3c;
+}
+
+.product-card button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #81c784;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #66bb6a;
+}
