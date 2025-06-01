@@ -1,0 +1,9 @@
+{
+  "name": "apna-grocery",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "aws-sdk": "^2.1480.0"
+  }
+}
